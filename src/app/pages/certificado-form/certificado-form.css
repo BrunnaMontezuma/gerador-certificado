@@ -59,7 +59,6 @@ label{
 
 .remove-btn i:hover{
   background-color: #E2E8F0;
-  cursor: pointer;
 }
 
 .custom-input{
@@ -67,4 +66,18 @@ label{
   border-radius: 6px;
   padding: 8px 12px;
   height: 40px;
+}
+
+.custom-input:focus{
+  border: 1px solid #3B5AC2;
+  box-shadow: none;
+}
+
+.custom-input:focus{
+  border: 1px solid #3B5AC2;
+  box-shadow: none;
+}
+
+.custom-input-group:has(input:focus) label{
+  color: #3B5AC2;
 }
